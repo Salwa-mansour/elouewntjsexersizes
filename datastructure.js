@@ -1,19 +1,24 @@
-// defingin arry
-let listOfNumbers = [2,3,4,5,66];
-// console.log(listOfNumbers[0]);
-let alShaibaniGlads = ['networking','analiysis and desigen','opraiting systems','desingen','technews','computer hacks','typing','hardware software maintnainace'];
+// page 79 exersizes 
+//1.1
 
-function goodEng(){
-for(i=0;i<alShaibaniGlads.length;i++){
-    console.log(alShaibaniGlads[i]);
+function myRange(x,y){
+ var rangeArr=[];
+  let  range=y-x;
+if( range<0){
+    range =range * -1 ;
 }
+   
+    for(i=0;i<=range;i++){
+      rangeArr.push(i+x);
+    //   if(y>x){
+    //   i++;
+    // }
+    //   else{
+    //   i--;
+    // }
+    // console.log( Array.isArray(rangeArr));
+   
 }
-//arry elements console loging
-//goodEng();
-alShaibaniGlads.push('good teacher');
-////arry structer consol loging
-//console.log(alShaibaniGlads);
-//consol log the returned value
- //console.log(alShaibaniGlads.pop());
- alShaibaniGlads.pop();
-goodEng();
+ return rangeArr;
+}
+console.log(myRange(15,5));

@@ -34,7 +34,7 @@ function arrSum(arr){
 a=[1,2,3,4,5,6,7,8,9,10];
 b=[1,2,3,4,5,6,7,8,9];
 // console.log(a.length);
-// console.log(arrSum(a));
+ console.log(arrSum(a));
 
 /////////////////// 2nd exersize----------------------------------------------
 
